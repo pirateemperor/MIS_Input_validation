@@ -1,0 +1,23 @@
+Test Case Execution Report
+==========================
+Total Test Cases: 12
+Passed: 7
+Failed: 5
+
+Failed Test Cases:
+------------------
+Test case FAILED for field 'transaction_date' with value '2023-10-07': Expected valid, got invalid
+Test case FAILED for field 'transaction_date' with value '2023-11-06': Expected valid, got invalid
+Test case FAILED for field 'transaction_weight' with value '1': Expected valid, got invalid
+Test case FAILED for field 'transaction_weight' with value '1000': Expected valid, got invalid
+Test case FAILED for field 'customer_id' with value 'CUST1234': Expected valid, got invalid
+
+Passed Test Cases:
+------------------
+Test case passed for field 'transaction_date' with value '2023-10-06'
+Test case passed for field 'transaction_date' with value '2023-11-07'
+Test case passed for field 'transaction_weight' with value '0.9'
+Test case passed for field 'transaction_weight' with value '1000.1'
+Test case passed for field 'customer_id' with value '1234CUST'
+Test case passed for field 'customer_id' with value 'CUST-1234'
+Test case passed for field 'customer_id' with value 'CUST ABCD'
